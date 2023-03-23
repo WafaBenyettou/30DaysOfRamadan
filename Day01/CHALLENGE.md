@@ -1,11 +1,11 @@
-# CODING CHALLENGE DAY 01:
+# CODING CHALLENGE DAY 01: 🌙✨
 -------------------
-> ##### ” يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ كُتِبَ عَلَيْكُمُ ٱلصِّيَامُ كَمَا كُتِبَ عَلَى ٱلَّذِينَ مِن قَبْلِكُمْ لَعَلَّكُمْ تَتَّقُونَ
+ ##### ” يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ كُتِبَ عَلَيْكُمُ ٱلصِّيَامُ كَمَا كُتِبَ عَلَى ٱلَّذِينَ مِن قَبْلِكُمْ لَعَلَّكُمْ تَتَّقُونَ
 
-> ##### “  O believers! Fasting is prescribed for you—as it was for those before you—so perhaps you will become mindful ˹of Allah˺. 
+ ##### “  O believers! Fasting is prescribed for you—as it was for those before you—so perhaps you will become mindful ˹of Allah˺. 
 ---------------------
 ## 
-## Todays challenge description [ king travel ] :
+## Todays challenge description [ king travel 👑 ] :
 
 King loves to go on tours with his friends.
 
@@ -20,8 +20,8 @@ King has **NNN** cars that can seat **555** people each and **MMM** cars that ca
 For each test case, output on a new line the maximum number of people that can travel together.
 Constraints
 
-                                        1≤T≤100
-                                        0≤N,M≤1000 
+            1≤T≤100
+            0≤N,M≤1000 
 
 Sample 1:
 
@@ -35,16 +35,16 @@ Sample 1:
 
 ### Explanation:
 
- - Test case 111: King has 444 cars that seat 555 each and 888 cars that seat 777 each. So,  4×5+8×7=76people can travel together.
+ - **Test case 111**: King has 444 cars that seat 555 each and 888 cars that seat 777 each. So,  4×5+8×7=76people can travel together.
 
- - Test case 222: King has 222 cars that seat 555 each and 131313 cars that seat 777 each. So, 2×5+13×7=101 people can travel together.
+ - **Test case 222**: King has 222 cars that seat 555 each and 131313 cars that seat 777 each. So, 2×5+13×7=101 people can travel together.
 
- - Test case 333: King has 141414 cars that seat 555 each and 555 cars that seat 777 each. So,14×5+7×7=105 people can travel together.
+ - **Test case 333**: King has 141414 cars that seat 555 each and 555 cars that seat 777 each. So,14×5+7×7=105 people can travel together.
 
- - Test case 444: King has 888 cars that seat 555 each and 888 cars that seat 777 each. So, 8×5+8×7=96 people can travel together.
+ - **Test case 444**: King has 888 cars that seat 555 each and 888 cars that seat 777 each. So, 8×5+8×7=96 people can travel together.
 
 
-### ADVICE 
+### ADVICE 💖
 
 Google and ChatGPT can be your so called "best friends" but it won't get you anywhere <3 Ctrl+C Ctrl+V are for the weakest of us all ;)
 

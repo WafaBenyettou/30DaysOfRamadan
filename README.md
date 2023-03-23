@@ -4,6 +4,8 @@
 
 Welcome to the 30 days coding challenge! This is a challenge designed to help you improve your coding skills and get in the habit of coding every day for 30 days.
 
+## INSTRUCTIONS 
+
 To participate, you will need to fork the repo and submit your solution within the next 24 hours. Here's how you can get started:
 
     - Fork the repo: Start by forking the repository to your own GitHub account. This will create a copy of the repository in your account, which you can use to submit your solutions.
@@ -19,6 +21,10 @@ To participate, you will need to fork the repo and submit your solution within t
     - Review other solutions: Take some time to review the solutions submitted by other participants. This will give you an opportunity to learn from others and improve your own coding skills.
 
     - Repeat for 30 days: Repeat this process for the next 30 days, working on a new challenge each day and submitting your solutions within the next 24 hours.
+
+## LANGUAGES? 
+
+Use any programming language you want no restriction 
 
 ***We hope this challenge will help you improve your coding skills and get in the habit of coding every day. Good luck!***
 

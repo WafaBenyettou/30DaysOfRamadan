@@ -9,11 +9,11 @@
 
 King loves to go on tours with his friends.
 
-King has **NNN** cars that can seat **555** people each and **MMM** cars that can seat **777** people each. Determine the maximum number of people that can travel together in these cars.
+King has **N** cars that can seat **5** people each and **M** cars that can seat **7** people each. Determine the maximum number of people that can travel together in these cars.
 ### Input Format
 
-    The first line of input contains a single integer TTT, the number of test cases.
-    The first and only line of each test case contains two space-separated integers NNN and MMM — the number of 555-seaters and 777-seaters, respectively.
+    The first line of input contains a single integer T, the number of test cases.
+    The first and only line of each test case contains two space-separated integers N and M — the number of 5-seaters and 7-seaters, respectively.
 
 ### Output Format
 
@@ -35,13 +35,13 @@ Sample 1:
 
 ### Explanation:
 
- - **Test case 111**: King has 444 cars that seat 555 each and 888 cars that seat 777 each. So,  4×5+8×7=76people can travel together.
+ - **Test case 1**: King has 4 cars that seat 5 each and 8 cars that seat 7 each. So,  4×5+8×7=76people can travel together.
 
- - **Test case 222**: King has 222 cars that seat 555 each and 131313 cars that seat 777 each. So, 2×5+13×7=101 people can travel together.
+ - **Test case 2**: King has 2 cars that seat 5 each and 13 cars that seat 7 each. So, 2×5+13×7=101 people can travel together.
 
- - **Test case 333**: King has 141414 cars that seat 555 each and 555 cars that seat 777 each. So,14×5+7×7=105 people can travel together.
+ - **Test case 3**: King has 14 cars that seat 5 each and 5 cars that seat 7 each. So,14×5+7×7=105 people can travel together.
 
- - **Test case 444**: King has 888 cars that seat 555 each and 888 cars that seat 777 each. So, 8×5+8×7=96 people can travel together.
+ - **Test case 4**: King has 8 cars that seat 5 each and 8 cars that seat 7 each. So, 8×5+8×7=96 people can travel together.
 
 
 ### ADVICE 💖

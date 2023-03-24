@@ -4,7 +4,7 @@
  ##### “   The Messenger of Allah ( PBUH) said, “In Paradise, there is a gate called ” Ar- Rayyan.It will be said on the Day of Resurrection,” Where are those who used to fast? Would you like to enter through Ar-Rayyan? Whoever enters through it will never feel thirsty again.Then when they have entered, it will be closed behind them, and no one but they will enter through it
 ---------------------
 ## 
-## Todays challenge description [ The Squide game] :
+## Todays challenge description [ The Squide game 🦑 ] :
 
 *“You won’t get caught if you hide behind someone.”*
 

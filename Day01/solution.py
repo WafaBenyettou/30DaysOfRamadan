@@ -1,5 +1,5 @@
 
-# try read 3 inputs , T , N , M with values         1≤T≤100  and  0≤N and 0<=M≤1000 
+
 
    
 

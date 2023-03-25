@@ -24,7 +24,7 @@ You have earned X (X>Y) Dinars this year. Find the minimum amount of money you h
 
 For each test case, output a single integer, denoting the minimum amount you need to invest.
 
-### Output Format
+### Constraints
 
             1≤T≤100
             1≤Y<X≤100

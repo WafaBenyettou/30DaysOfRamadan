@@ -8,7 +8,6 @@
 
 int main(){
 
-
-   printf("Green light! Red light!");
+   printf("Pay your taxes kids ;) !");
    return 0; 
 }

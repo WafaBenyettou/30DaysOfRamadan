@@ -1,4 +1,4 @@
-# CODING CHALLENGE DAY 02: 🌙✨
+# CODING CHALLENGE DAY 03: 🌙✨
 -------------------
  ##### ” قال رسول الله ( صلى الله عليه وسلم ) ،” إذا كان صوم أحدكم ، فلا يرفث ولايصخب، فإن سابه أحد أو قاتله ، فليقل : إنى صائم
  ##### “   Abu Hurairah narrated: The Messenger of Allah ( PBUH) said ,” When anyone of you is observing fasting on a day , he should neither indulge in obscene language nor should he raise his voice and if anyone reviles him or tries to quarrel with him, he should say: I am fasting”.

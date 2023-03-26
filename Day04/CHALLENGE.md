@@ -1,7 +1,7 @@
 # CODING CHALLENGE DAY 04:🌙✨
 -------------------
  ##### ” الصلاة إلى الصلاة ، والجمعة إلى الجمعة ورمضان إلى رمضان ،مكفرات لما بينهما مالم ترتكب الكبائر
- ##### “   The Messenger of Allah (PBUH) said, ” The five daily Salat (prayers), Friday(prayer) to the next Friday (prayer) and the fasting of Ramadan is expiation of the sins committed, so long as major sins are avoided. (Muslim).
+ ##### “ The Messenger of Allah (PBUH) said, ” The five daily Salat (prayers), Friday(prayer) to the next Friday (prayer) and the fasting of Ramadan is expiation of the sins committed, so long as major sins are avoided. (Muslim).
 ---------------------
 ## 
 ## Todays challenge description [ Egybest Pro ] :
@@ -49,7 +49,7 @@ Sample 1:
 
  - **Test case 1**: No two people can contribute to collect enough money to buy a Egybest subscription.
 
- - **Test case 2**:  Ayoub and Mohamed can contribute and collect a total of 5 Dinars which is enough to buy an Egybest subscription of 5 Dinars.
+ - **Test case 2**: Ayoub and Mohamed can contribute and collect a total of 5 Dinars which is enough to buy an Egybest subscription of 5 Dinars.
 
  - **Test case 3**: One possible way is, Mohamed and Chahine can contribute and collect a total of 5 Dinars which is enough to buy a Egybest subscription of 4 Dinars.
      Note that there are other possible ways as well

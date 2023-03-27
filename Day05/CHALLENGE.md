@@ -1,15 +1,15 @@
-# CODING CHALLENGE DAY 04:🌙✨
--------------------
- ##### ” الصلاة إلى الصلاة ، والجمعة إلى الجمعة ورمضان إلى رمضان ،مكفرات لما بينهما مالم ترتكب الكبائر
- ##### “ The Messenger of Allah (PBUH) said, ” The five daily Salat (prayers), Friday(prayer) to the next Friday (prayer) and the fasting of Ramadan is expiation of the sins committed, so long as major sins are avoided. (Muslim).
+# CODING CHALLENGE DAY 05:🌙✨
+------------------
+ ##### ” وَإِذَا سَأَلَكَ عِبَادِى عَنِّى فَإِنِّى قَرِيبٌ ۖ أُجِيب دَعْوَةَ ٱلدَّاعِ إِذَا دَعَانِ ۖ فَلْيَسْتَجِيبُوا لِى وَلْيُؤْمِنُوا بِى لَعَلَّهُمْ يَرْشُدُونَ 
+ ##### “ And when My servants ask you regarding Me [they should know that], I am near and I answer the prayer of the one who prays when they pray to me, therefore, they should respond to Me and have faith in Me, in order that they may be led aright.
 ---------------------
 ## 
-## Todays challenge description [ EgyBest pro Pro ] :
+## Todays challenge description [ Who is Taller ?! ] :
 
 
 Wafa and Nesrine were having an argument about which of them is taller than the other. Racha got irritated by the argument, and decided to settle the matter once and for all.
 
-Racha measured the heights of Wafa and Nesrine, and got to know that Wafa's height is XXX centimeters and Nesrine's height is YYY centimeters. Help Racha decide who is taller.
+Racha measured the heights of Wafa and Nesrine, and got to know that Wafa's height is X centimeters and Nesrine's height is Y centimeters. Help Racha decide who is taller.
 
 It is guaranteed that X≠Y
 

@@ -12,9 +12,9 @@ Today, Tarek has a special string P consisting of lower case letters "c" , "h" ,
 
 Each of Tarek's query has the following form a b L R. For a given query, Tarek wants to count the number of good strings which starts at letter a and ends at letter b such that starting index Si and ending index Ei of a chosen substring satisfies L <= Si < Ei <= R.
 
-NOTE
+**NOTE**
 
-Two substrings P1 and P2 are considered to be different if either S1 != S2 or E1 != E2 where S1,E1 and S2,E2 are the starting and ending index of string P1 and string P2 respectively.
+    Two substrings P1 and P2 are considered to be different if either S1 != S2 or E1 != E2 where S1,E1 and S2,E2 are the starting and ending index of string P1 and string P2 respectively.
 
 Tarek is not able to accomplish this task efficiently. Can you help him ?
 

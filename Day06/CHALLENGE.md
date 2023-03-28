@@ -6,25 +6,29 @@
 ## 
 ## Todays challenge description [ Who is Taller ?! ] :
 
+Chef likes strings a lot but moreover he likes good strings. Chef calls a string str a good string if str starts and ends at different characters. For eg : strings such as abab , baccba , abc are all good strings whereas strings like aba, baab , baacaab are not good at all .
 
-Wafa and Nesrine were having an argument about which of them is taller than the other. Racha got irritated by the argument, and decided to settle the matter once and for all.
+Today, Chef has a special string P consisting of lower case letters "c" , "h" , "e" and "f" only. Chef wants to make some queries about his string P.
 
-Racha measured the heights of Wafa and Nesrine, and got to know that Wafa's height is X centimeters and Nesrine's height is Y centimeters. Help Racha decide who is taller.
+Each of chef's query has the following form a b L R. For a given query, Chef wants to count the number of good strings which starts at letter a and ends at letter b such that starting index Si and ending index Ei of a chosen substring satisfies L <= Si < Ei <= R.
 
-It is guaranteed that X≠Y
+NOTE
+
+Two substrings P1 and P2 are considered to be different if either S1 != S2 or E1 != E2 where S1,E1 and S2,E2 are the starting and ending index of string P1 and string P2 respectively.
+
+Chef is not able to accomplish this task efficiently. Can you help him ?
 
 ### Input Format
 
    
-    The first line of input will contain an integer T — the number of test cases. The description of T test cases follows.
-    The first and only line of each test case contains two integers X and Y, as described in the problem statement.
+    First line of the input contains a string P denoting the chef's special string. Next line of the input contains a single integer Q denoting the number of chef's queries. Next Q lines of the input contains four space separated parameters where the first two parameters are characters denoting a and b respectively and rest two are integers denoting L and R respectively. 
 
 
 
 
 ### Output Format
 
-For each test case, output on a new line A if Wafa is taller than Nesrine, else output B. The output is case insensitive, i.e, both A and a will be accepted as correct answers when Wafa is taller.
+For each chef's query, print the required answer.
 
 ### Constraints
 
@@ -44,12 +48,15 @@ Sample 1:
 
 
 
+### Warning
+
+Large test data set, Prefer to use faster input/output methods .
 
 ### Explanation:
 
- - **Test case 1**: In this case, 150<160 so Nesrine is taller than Wafa.
+ - **Test case 1**: good strings are ch , checfch , cfch , ch
 
- - **Test case 2**:  In this case, 160>150 so Wafa is taller than Nesrine.
+ - **Test case 2**:  good strings are checf , checfchef , checfcheff , cf , cfchef , cfcheff , chef , cheff
 
 
 

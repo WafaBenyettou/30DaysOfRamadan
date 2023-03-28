@@ -8,8 +8,17 @@
 
 int main(){
  
-   
-   printf("Fighting over who is a tree ?! ");
-    
-   return 0; 
+   int t;
+	scanf("%d",&t);
+	while(t--){
+	    int A,B;
+	    scanf("%d %d",&A,&B);
+	    if(A>B){
+	        printf("A\n");
+	    }
+	    else{
+	        printf("B\n");
+	    }
+	}
+	return 0;
 }

@@ -21,7 +21,9 @@ Tarek is not able to accomplish this task efficiently. Can you help him ?
 ### Input Format
 
    
-    First line of the input contains a string P denoting the tarek's special string. Next line of the input contains a single integer Q denoting the number of tarek's queries. Next Q lines of the input contains four space separated parameters where the first two parameters are characters denoting a and b respectively and rest two are integers denoting L and R respectively. 
+    First line of the input contains a string P denoting the tarek's special string. 
+    Next line of the input contains a single integer Q denoting the number of tarek's queries. 
+    Next Q lines of the input contains four space separated parameters where the first two parameters are characters denoting a and b respectively and rest two are integers denoting L and R respectively. 
 
 
 

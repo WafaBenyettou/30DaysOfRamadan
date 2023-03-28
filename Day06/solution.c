@@ -9,7 +9,7 @@
 int main(){
  
    
-   printf("Fighting over who is a tree ?! ");
+   printf("Special string ! ");
     
    return 0; 
 }

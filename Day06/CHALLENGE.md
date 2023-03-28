@@ -1,10 +1,10 @@
-# CODING CHALLENGE DAY 05:🌙✨
+# CODING CHALLENGE DAY 06:🌙✨
 ------------------
  ##### ”اللَّهُمَّ إِنِّي أَسْأَلُكَ مُوْجِبَاتِ رَحْمَتِكَ، وَعَزَائِمَ مَغْفِرَتِكَ، وَالسَّلَامَةَ مِنْ كُلِّ إِثْمٍ، وَالْغَنِيْمَةَ مِنْ كُلِّ بِرٍ، وَالْفَوْزَ بِالجَنَّةِ، وَالنَّجَاةَ مِنَ النَّارِ 
  ##### “ O Allah! I beg You for that which incites Your mercy and the means of Your forgiveness, safety from every sin, the benefit from every good deed, success in attaining Jannah and safety from the Fire.
 ---------------------
 ## 
-## Todays challenge description [ Who is Taller ?! ] :
+## Todays challenge description [ Special string 🧙‍♂️ ] :
 
 Tarek likes strings a lot but moreover he likes good strings. Tarek calls a string str a good string if str starts and ends at different characters. For eg : strings such as abab , baccba , abc are all good strings whereas strings like aba, baab , baacaab are not good at all .
 

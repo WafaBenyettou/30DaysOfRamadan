@@ -3,6 +3,6 @@
 
 int main()
 {
-   printf("yes 07 days <3");
+   printf("Your name is MINE <3");
    return 0;
 }

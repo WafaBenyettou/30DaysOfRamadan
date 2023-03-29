@@ -41,7 +41,7 @@ For each test case print "YES" if they are allowed to marry, else print "NO". (q
 | 3 |YES|
 | john johanna |YES|
 | ira ira |NO|
-|kayla jayla|2|
+|kayla jayla||
 
 
 ### Explanation:

@@ -7,7 +7,17 @@
 #include <fcntl.h>
 
 int main(){
- 
-	printf("Sharing is caring ?");
-   return 0; 
+ 	int t;
+	scanf("%d",&t);
+	int a,b;
+    while(t--){
+        scanf("%d %d",&a,&b);
+        int c=a+b;
+        if(c%2==0)
+        printf("YES\n");
+        else
+        printf("NO\n");
+    }
+	
+	return 0;
 }

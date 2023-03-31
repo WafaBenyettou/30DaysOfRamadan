@@ -13,7 +13,7 @@
 
 You are given integers N,M,K and N integers A1​,A2​,…,AN​.
 
-You can perform the following operation at most KKK times:
+You can perform the following operation at most K times:
 
     Choose any integer x such that 0≤x< 2^M Then, for each 1≤i≤N1, you can replace Ai​ with Ai​⊕x, or leave it unchanged.
 

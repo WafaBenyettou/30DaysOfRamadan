@@ -2,61 +2,60 @@
 
 ---
 
-##### ” سأل رجل رسول الله( صلى):” إذا صليت الصلاة المفروضة، وصمت رمضان، وأحللت الحلال، وحرمت الحرام، أأدخل الجنة؟! فأجابه: نعم
-
-##### “ Jabir ( May Allah be pleased with him ) reported: a man once said to the Messenger of Allah( PBUH) ‘” Shall I enter paradise in case I say the obligatory prayers, observe fasting in Ramadan and treat as lawful which has been made permissible? by the Islamic Shari’a and deny me what is forbidden and make no addition to it?! ” The Prophet replied in the affirmative.”
+##### ” اللَّهُ لاَ إِلَهَ إِلاَّ هُوَ الْحَيُّ الْقَيُّومُ لاَ تَأْخُذُهُ سِنَةٌ وَلاَ نَوْمٌ لَهُ مَا فِي السَّمَاوَاتِ وَمَا فِي الأَرْضِ مَنْ ذَا الَّذِي يَشْفَعُ عِنْدَهُ إِلاَّ بِإِذْنِهِ يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ وَلاَ يُحِيطُونَ بِشَيْءٍ مِنْ عِلْمِهِ إِلاَّ بِمَا شَاءَ وَسِعَ كُرْسِيُّهُ السَّمَاواتِ وَالأَرْضَ وَلاَ يَئُودُهُ حِفْظُهُمَا وَهُوَ الْعَلِيُّ الْعَظِيمُ
+##### “ Allah! There is no god but He - the Living, the Self-subsisting, Eternal. No slumber can seize Him nor Sleep. His are all things in the heavens and on earth. Who is there that can intercede in His presence except as he permitteth? He knoweth what (appeareth to His creatures As) Before or After or Behind them. Nor shall they compass aught of His knowledge except as He willeth. His throne doth extend over the heavens and on earth, and He feeleth no fatigue in guarding and preserving them, For He is the Most High, the Supreme (in glory).
 
 ---
 
 ##
 
-## Todays challenge description [ Sharing is caring ] :
+## Todays challenge description [ Another XOR ] :
 
-Amina and Belkiss are very good friends and they always distribute all the eatables equally among themselves.
+You are given integers N,M,K and N integers A1​,A2​,…,AN​.
 
-Amina has A chocolates and Belkiss has B chocolates. Determine whether Amina and Belkiss can distribute all the chocolates equally among themselves.
+You can perform the following operation at most KKK times:
 
-Note that:
+    Choose any integer x such that 0≤x< 2^M Then, for each 1≤i≤N1, you can replace Ai​ with Ai​⊕x, or leave it unchanged.
 
-    It is not allowed to break a chocolate into more than one piece.
-    No chocolate shall be left in the distribution.
+What is the maximum value of A1+A2+…+AN that you can achieve after this process?
 
 ### Input Format
 
-    The first line of input will contain an integer T — the number of test cases. The description of T test cases follows.
-    The first and only line of each test case contains two space-separated integers AAA and BBB, the number of chocolates that Amina and Belkiss have, respectively.
+    The first line of the input contains a single integer T − the number of test cases. The description of test cases follows.
+
+    The first line of each test case contains three integers N,M,K.
+
+The second line of each test case contains N integers A1,A2,…,AN.
 
 ### Output Format
 
-For each test case, output on a new line YES if Amina and Belkiss can distribute all the chocolates equally, else output NO.
-The output is case insensitive, i.e, yes, YeS, yES will all be accepted as correct answers when Amina and Belkiss can distribute the chocolates equally.
+For each test case, output the maximum value of A1​+A2​+…+AN​ that you can achieve.
 
 ### Constraints
 
-            1≤T≤1000
-            1≤A,B≤10000
-
-
+            1≤T≤10
+            1≤N≤120
+            1≤M≤120
+            1≤K≤5
+            0≤Ai​<2^M.
 
 Sample 1:
 
-| Input | Output |
-| ----- | ------ |
-| 4     | YES    |
-| 1 1   | YES    |
-| 1 3   | NO     |
-| 1 2   | NO     |
-| 1 4   |        |
+| Input        | Output |
+| ------------ | ------ |
+| 2            | 55     |
+| 4 4 2        | 620    |
+| 0 4 2 12     |        |
+| 5 7 3        |        |
+| 2 28 14 88 1 |        |
 
 ### Explanation:
 
-- **Test case 1**: Both Amina and Belkiss already have equal number of chocolates, hence it is possible to distribute the chocolates equally among Amina and Belkiss.
+In the first test case, one of the possible sequences of operations is the following:
 
-- **Test case 2**: : If Belkiss gives one of his chocolates to Amina, then both of them will have equal number of chocolates, i.e. 2. So, it is possible to distribute the chocolates equally among Amina and Belkiss.
+- **First operation:** Choose x=12, and XOR A1​,A2​ and A3 with it, obtaining array [12,8,14,12].
 
-- **Test case 3**: There are total 3 chocolates. These chocolates cannot be divided equally among Amina and Belkiss.
-
-- **Test case 4**: Amina and Belkiss cannot have equal number of chocolates, no matter how they distribute the chocolates.
+- **Second operation:** Choose x=3, and XOR A1,A2 and A4​ with it, obtaining array [15,11,14,15], with sum 55.
 
 ### ADVICE 💖
 

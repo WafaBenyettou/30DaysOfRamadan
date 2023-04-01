@@ -1,9 +1,11 @@
-# CODING CHALLENGE DAY 08:🌙✨
+# CODING CHALLENGE DAY 10:🌙✨
 
 ---
 
-##### ” اللَّهُ لاَ إِلَهَ إِلاَّ هُوَ الْحَيُّ الْقَيُّومُ لاَ تَأْخُذُهُ سِنَةٌ وَلاَ نَوْمٌ لَهُ مَا فِي السَّمَاوَاتِ وَمَا فِي الأَرْضِ مَنْ ذَا الَّذِي يَشْفَعُ عِنْدَهُ إِلاَّ بِإِذْنِهِ يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ وَلاَ يُحِيطُونَ بِشَيْءٍ مِنْ عِلْمِهِ إِلاَّ بِمَا شَاءَ وَسِعَ كُرْسِيُّهُ السَّمَاواتِ وَالأَرْضَ وَلاَ يَئُودُهُ حِفْظُهُمَا وَهُوَ الْعَلِيُّ الْعَظِيمُ
-##### “ Allah! There is no god but He - the Living, the Self-subsisting, Eternal. No slumber can seize Him nor Sleep. His are all things in the heavens and on earth. Who is there that can intercede in His presence except as he permitteth? He knoweth what (appeareth to His creatures As) Before or After or Behind them. Nor shall they compass aught of His knowledge except as He willeth. His throne doth extend over the heavens and on earth, and He feeleth no fatigue in guarding and preserving them, For He is the Most High, the Supreme (in glory).
+##### ” قال رسول الله( صلى) قال ،” من صام رمضان إيمانا واحتسابا ،غفر له ماتقدم من ذنبه “
+
+
+##### “ The Messenger of Allah ( PBUH) said ,” He who observes fasting during the month of Ramadan with faith while seeking its reward from Allah , will have his past sins forgiven”.( Al-Bukhari & Muslim).
 
 ---
 
@@ -11,51 +13,41 @@
 
 ## Todays challenge description [ Another XOR ] :
 
-You are given integers N,M,K and N integers A1​,A2​,…,AN​.
+You've got an array consisting of n integers: a[1], a[2], ..., a[n]. Moreover, there are m queries, each query can be described by three integers l i, r i, k i. Query l i, r i, k i means that we should add  to each element a[j], where l i ≤ j ≤ r i.
+Record  means the binomial coefficient, or the number of combinations from y elements into groups of x elements.
 
-You can perform the following operation at most K times:
-
-    Choose any integer x such that 0≤x< 2^M Then, for each 1≤i≤N1, you can replace Ai​ with Ai​⊕x, or leave it unchanged.
-
-What is the maximum value of A1+A2+…+AN that you can achieve after this process?
+You need to fulfil consecutively all queries and then print the final array.
 
 ### Input Format
 
-    The first line of the input contains a single integer T − the number of test cases. The description of test cases follows.
-
-    The first line of each test case contains three integers N,M,K.
-
-The second line of each test case contains N integers A1,A2,…,AN.
+    The first line contains integers n, m (1 ≤ n, m ≤ 105).
+    The second line contains n integers a[1], a[2], ..., a[n] (0 ≤ a i ≤ 109) — the initial array.
+    Next m lines contain queries in the format l i, r i, k i — to all elements of the segment l i... r i add number  (1 ≤ l i ≤ r i ≤ n; 0 ≤ k ≤ 100).
 
 ### Output Format
 
-For each test case, output the maximum value of A1​+A2​+…+AN​ that you can achieve.
+Print n integers: the i-th number is the value of element a[i] after all the queries. As the values can be rather large, print them modulo 1000000007 (109 + 7).
 
-### Constraints
 
-            1≤T≤10
-            1≤N≤120
-            1≤M≤120
-            1≤K≤5
-            0≤Ai​<2^M.
 
 Sample 1:
 
-| Input        | Output |
-| ------------ | ------ |
-| 2            | 55     |
-| 4 4 2        | 620    |
-| 0 4 2 12     |        |
-| 5 7 3        |        |
-| 2 28 14 88 1 |        |
+| Input     | Output    |
+| --------- | --------- |
+| 5 1       | 1 1 1 1 1 |
+| 0 0 0 0 0 |           |
+| 1 5 0     |           |
 
-### Explanation:
+Sample 2:
 
-In the first test case, one of the possible sequences of operations is the following:
+| Input               | Output                 |
+| ------------------- | ---------------------- |
+| 10 2                | 2 4 6 8 10 7 3 6 10 15 |
+| 1 2 3 4 5 0 0 0 0 0 |                        |
+| 1 6 1               |                        |
+| 6 10 2              |                        |
 
-- **First operation:** Choose x=12, and XOR A1​,A2​ and A3 with it, obtaining array [12,8,14,12].
 
-- **Second operation:** Choose x=3, and XOR A1,A2 and A4​ with it, obtaining array [15,11,14,15], with sum 55.
 
 ### ADVICE 💖
 

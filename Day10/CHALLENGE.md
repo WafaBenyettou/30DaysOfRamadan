@@ -2,8 +2,7 @@
 
 ---
 
-##### ” قال رسول الله( صلى) قال ،” من صام رمضان إيمانا واحتسابا ،غفر له ماتقدم من ذنبه “
-
+##### ” قال رسول الله( صلى) قال ،” من صام رمضان إيمانا واحتسابا ،غفر له ماتقدم من ذنبه"
 
 ##### “ The Messenger of Allah ( PBUH) said ,” He who observes fasting during the month of Ramadan with faith while seeking its reward from Allah , will have his past sins forgiven”.( Al-Bukhari & Muslim).
 
@@ -28,8 +27,6 @@ You need to fulfil consecutively all queries and then print the final array.
 
 Print n integers: the i-th number is the value of element a[i] after all the queries. As the values can be rather large, print them modulo 1000000007 (109 + 7).
 
-
-
 Sample 1:
 
 | Input     | Output    |
@@ -46,8 +43,6 @@ Sample 2:
 | 1 2 3 4 5 0 0 0 0 0 |                        |
 | 1 6 1               |                        |
 | 6 10 2              |                        |
-
-
 
 ### ADVICE 💖
 

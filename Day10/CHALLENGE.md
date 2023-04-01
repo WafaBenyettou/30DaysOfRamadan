@@ -11,7 +11,7 @@
 
 ##
 
-## Todays challenge description [ Another XOR ] :
+## Todays challenge description [ Curious Array ] :
 
 You've got an array consisting of n integers: a[1], a[2], ..., a[n]. Moreover, there are m queries, each query can be described by three integers l i, r i, k i. Query l i, r i, k i means that we should add  to each element a[j], where l i ≤ j ≤ r i.
 Record  means the binomial coefficient, or the number of combinations from y elements into groups of x elements.

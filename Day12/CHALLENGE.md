@@ -1,48 +1,63 @@
-# CODING CHALLENGE DAY 01: 🌙✨
+# CODING CHALLENGE DAY 12: 🌙✨
 -------------------
- ##### ” يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ كُتِبَ عَلَيْكُمُ ٱلصِّيَامُ كَمَا كُتِبَ عَلَى ٱلَّذِينَ مِن قَبْلِكُمْ لَعَلَّكُمْ تَتَّقُونَ
+ ##### ” اللَّهُمَّ صَلِّ عَلَى مُحَمَّدٍ وَعَلَى آلِ مُحَمَّدٍ كَمَا صَلَّيْتَ عَلَى إِبْرَاهِيمَ وَعَلَى آلِ إِبْرَاهِيمَ، إِنَّكَ حَمِيدٌ مَجِيدٌ، اللَّهُمَّ بَارِكَ عَلَى مُحَمَّدٍ وَعَلَى آلِ مُحَمَّدٍ كَمَ ا بَارَكْتَ عَلَى إِبْرَاهِيمَ وَعَلَى آلِ إِبْرَاهِيمَ، إِنَّكَ حَمِيدٌ مَجِيدٌ
 
- ##### “  O believers! Fasting is prescribed for you—as it was for those before you—so perhaps you will become mindful ˹of Allah˺. 
+ ##### “  O Allah, bestow Your favor on Muhammad and on the family of Muhammad as You have bestowed Your favor on Ibrahim and on the family of Ibrahim, You are Praiseworthy, Most Glorious. O Allah, bless Muhammad and the family of Muhammad as You have blessed Ibrahim and the family of Ibrahim, You are Praiseworthy, Most Glorious
 ---------------------
 ## 
-## Todays challenge description [ king travel 👑 ] :
+## Todays challenge description [ D. Anton and School ] :
 
-King loves to go on tours with his friends.
+As you probably know, Anton goes to school. One of the school subjects that Anton studies is Bracketology. On the Bracketology lessons students usually learn different sequences that consist of round brackets (characters "(" and ")" (without quotes)).
+On the last lesson Anton learned about the regular simple bracket sequences (RSBS). A bracket sequence s of length n is an RSBS if the following conditions are met:
+    • It is not empty (that is n ≠ 0).
+    • The length of the sequence is even.
+    • First  charactes of the sequence are equal to "(".
+    • Last  charactes of the sequence are equal to ")".
+For example, the sequence "((()))" is an RSBS but the sequences "((())" and "(()())" are not RSBS.
+Elena Ivanovna, Anton's teacher, gave him the following task as a homework. Given a bracket sequence s. Find the number of its distinct subsequences such that they are RSBS. Note that a subsequence of s is a string that can be obtained from s by deleting some of its elements. Two subsequences are considered distinct if distinct sets of positions are deleted.
+Because the answer can be very big and Anton's teacher doesn't like big numbers, she asks Anton to find the answer modulo 109 + 7.
+Anton thought of this task for a very long time, but he still doesn't know how to solve it. Help Anton to solve this task and write a program that finds the answer for it!
 
-King has **N** cars that can seat **5** people each and **M** cars that can seat **7** people each. Determine the maximum number of people that can travel together in these cars.
+
 ### Input Format
 
-    The first line of input contains a single integer T, the number of test cases.
-    The first and only line of each test case contains two space-separated integers N and M — the number of 5-seaters and 7-seaters, respectively.
+    The only line of the input contains a string s — the bracket sequence given in Anton's homework. The string consists only of characters "(" and ")" (without quotes). It's guaranteed that the string is not empty and its length doesn't exceed 200 000.
 
 ### Output Format
 
-For each test case, output on a new line the maximum number of people that can travel together.
-Constraints
+Output one number — the answer for the task modulo 10^9 + 7.
 
-            1≤T≤100
-            0≤N,M≤1000 
+Examples
+input
+Copy
+)(()()
+output
+Copy
+6
+input
+Copy
+()()()
+output
+Copy
+7
+input
+Copy
+)))
+output
+Copy
+0
 
-Sample 1:
 
-| Input | Output |
-| ------------- | ------------- |
-| 4 |76|
-|4 8|101|
-|2 13|105|
-|14 5|96|
-|8 8  | |
+### Note
 
-### Explanation:
-
- - **Test case 1**: King has 4 cars that seat 5 each and 8 cars that seat 7 each. So,  4×5+8×7=76people can travel together.
-
- - **Test case 2**: King has 2 cars that seat 5 each and 13 cars that seat 7 each. So, 2×5+13×7=101 people can travel together.
-
- - **Test case 3**: King has 14 cars that seat 5 each and 5 cars that seat 7 each. So,14×5+7×7=105 people can travel together.
-
- - **Test case 4**: King has 8 cars that seat 5 each and 8 cars that seat 7 each. So, 8×5+8×7=96 people can travel together.
-
+In the first sample the following subsequences are possible:
+    • If we delete characters at the positions 1 and 5 (numbering starts with one), we will get the subsequence "(())".
+    • If we delete characters at the positions 1, 2, 3 and 4, we will get the subsequence "()".
+    • If we delete characters at the positions 1, 2, 4 and 5, we will get the subsequence "()".
+    • If we delete characters at the positions 1, 2, 5 and 6, we will get the subsequence "()".
+    • If we delete characters at the positions 1, 3, 4 and 5, we will get the subsequence "()".
+    • If we delete characters at the positions 1, 3, 5 and 6, we will get the subsequence "()".
+The rest of the subsequnces are not RSBS. So we got 6 distinct subsequences that are RSBS, so the answer is 6.
 
 ### ADVICE 💖
 

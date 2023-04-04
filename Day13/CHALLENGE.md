@@ -12,23 +12,29 @@
 
 ## Todays challenge description [ Saving Taxes ] :
 
-In ITland, everyone who earns strictly more than Y Dinars per year, has to pay a tax to gov. The gov has allowed a special scheme where you can invest any amount of money and claim exemption for it.
+Devu is learning Combinatorics in his college. He find it very interesting to calculate number of ways of going to point (c,d) from point (a,b) in co-ordinate plane. We can take horizontal and vertical steps only and can not visit at a point twice. In a step, you can move one unit only. We have to reach to the point (c,d) from the point (a,b) using abs(a-c)+ abs(b-d) steps only.
 
-You have earned X (X>Y) Dinars this year. Find the minimum amount of money you have to invest so that you don't have to pay taxes this year.
+Devu has two sets of points. Set A contains points having X co-ordinate 0 and Y co-ordinates varying from 1 to N(both inclusive). Set B contains points having X co-ordinate K and Y co-ordinates varying from 1 to N(both inclusive). Both sets contains N number of integral points. He wants to calculate the sum of number of ways to going to the each point of set B from the each point of set A .
+
+As the answer can be large, print it modulo 1000000007.
 
 ### Input Format
 
-    The first line of input will contain a single integer T, denoting the number of test cases.
-    Each test case consists of a single line of input consisting of two space separated integers X and Y denoting the amount you earned and the amount above which you will have to pay taxes.
+    • First line of input contains an integer T denoting number of test cases.
+    • Next T lines will contain pair of integers N and K
 
 ### Output Format
 
-For each test case, output a single integer, denoting the minimum amount you need to invest.
+For each test case, print a single integer representing the answer of that test case.
 
 ### Constraints
 
-            1≤T≤100
-            1≤Y<X≤100
+Subtask #1: 10 points
+        ◦ 1 ≤ T ≤ 20, 1 ≤ N ,K ≤ 1000
+Subtask #2: 10 points
+        ◦ 1 ≤ T ≤ 20, 1 ≤ N ,K ≤ 106
+Subtask #3: 80 points
+        ◦ 1 ≤ T ≤ 10000, 1 ≤ N,K ≤ 106
 
 
 
@@ -36,22 +42,22 @@ Sample 1:
 
 | Input | Output |
 | ----- | ------ |
-| 4     | 2      |
-| 4 2   | 1      |
-| 8 7   | 4      |
-| 5 8   | 1      |
-| 5 1   |        |
-| 2 1   |        |
+| 2     | 8      |
+| 2 2   | 236    |
+| 4 5   |        |
+
 
 ### Explanation:
 
-- **Test case 1**: The amount above which you will have to pay taxes is 2. Since you earn 4 Dinars, you need to invest at least 2 Dinars. After investing 2 dinars, you will remain with an effective income 4−2=24 Dinars which will not be taxed.
+- **Test case 1**:For  the first sample case,
 
-- **Test case 2**: The amount above which you will have to pay taxes is 7. Since you earn 8 Dinars, you need to invest at least 1 Dinars.
+        ways[(0,1)->(2,1)]= 1
 
-- **Test case 3**: The amount above which you will have to pay taxes is 1. Since you earn 5 Dinars, you need to invest at least 4 Dinars.
+        ways[(0,2)->(2,2)]= 1
 
-- **Test case 4**: The amount above which you will have to pay taxes is 1. Since you earn 2 dinars, you need to invest at least 1 Dinars.
+        ways[(0,1)->(2,2)]= 3
+
+        ways[(0,2)->(2,1)]= 3
 
 ### ADVICE 💖
 

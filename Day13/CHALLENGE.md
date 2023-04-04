@@ -1,16 +1,16 @@
-# CODING CHALLENGE DAY 03: 🌙✨
+# CODING CHALLENGE DAY 13: 🌙✨
 
 ---
 
-##### ” قال رسول الله ( صلى الله عليه وسلم ) ،” إذا كان صوم أحدكم ، فلا يرفث ولايصخب، فإن سابه أحد أو قاتله ، فليقل : إنى صائم
+##### ” التَّحِيَّاتُ للهِ، وَالصَّلَوَاتُ، وَالطَّيِّبَاتُ، السَّلَامُ عَلَيْكَ أَيُّهَا النَّبِيُّ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ، السَّلَامُ عَلَيْنَا وَعَلَى عِبَادِ اللهِ الصَّالِحِينَ. أّشَْدُ أَنْ لَا إِلَهَ إِلَّا اللهُ وَأَشْهَدُ أَنَّ مُحَمَّداً عَبْدُهُ وَرَسُولُهُ
 
-##### “ Abu Hurairah narrated: The Messenger of Allah ( PBUH) said ,” When anyone of you is observing fasting on a day , he should neither indulge in obscene language nor should he raise his voice and if anyone reviles him or tries to quarrel with him, he should say: I am fasting”.
+##### “ All greetings of humility are for Allah, and all prayers and goodness. Peace be upon you, O Prophet, and the mercy of Allah and His blessings. Peace be upon us and upon the righteous slaves of Allah. I bear witness that there is none worthy of worship but Allah, and I bear witness that Muhammad is His slave and His Messenger. ”
 
 ---
 
 ##
 
-## Todays challenge description [ Saving Taxes ] :
+## Todays challenge description [  NWAYS ] :
 
 Devu is learning Combinatorics in his college. He find it very interesting to calculate number of ways of going to point (c,d) from point (a,b) in co-ordinate plane. We can take horizontal and vertical steps only and can not visit at a point twice. In a step, you can move one unit only. We have to reach to the point (c,d) from the point (a,b) using abs(a-c)+ abs(b-d) steps only.
 
@@ -30,13 +30,11 @@ For each test case, print a single integer representing the answer of that test 
 ### Constraints
 
 Subtask #1: 10 points
-        ◦ 1 ≤ T ≤ 20, 1 ≤ N ,K ≤ 1000
+◦ 1 ≤ T ≤ 20, 1 ≤ N ,K ≤ 1000
 Subtask #2: 10 points
-        ◦ 1 ≤ T ≤ 20, 1 ≤ N ,K ≤ 106
+◦ 1 ≤ T ≤ 20, 1 ≤ N ,K ≤ 106
 Subtask #3: 80 points
-        ◦ 1 ≤ T ≤ 10000, 1 ≤ N,K ≤ 106
-
-
+◦ 1 ≤ T ≤ 10000, 1 ≤ N,K ≤ 106
 
 Sample 1:
 
@@ -46,10 +44,9 @@ Sample 1:
 | 2 2   | 236    |
 | 4 5   |        |
 
-
 ### Explanation:
 
-- **Test case 1**:For  the first sample case,
+- **Test case 1**:For the first sample case,
 
         ways[(0,1)->(2,1)]= 1
 

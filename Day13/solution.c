@@ -7,13 +7,9 @@
 #include <fcntl.h>
 
 int main(){
-  int t;
-    scanf("%d",&t);
-    while(t--) {
-        int a,b,n;
-        scanf("%d %d",&a,&b);
-        n=a-b;
-        printf("%d\n",n);
-    }
-   return 0; 
+  
+  
+  printf("NWAYS or NO WAYS ?!");
+  return 0; 
+
 }

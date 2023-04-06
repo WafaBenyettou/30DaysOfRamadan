@@ -12,11 +12,12 @@
 
 ## Todays challenge description [  NWAYS ] :
 
-Devu is learning Combinatorics in his college. He find it very interesting to calculate number of ways of going to point (c,d) from point (a,b) in co-ordinate plane. We can take horizontal and vertical steps only and can not visit at a point twice. In a step, you can move one unit only. We have to reach to the point (c,d) from the point (a,b) using abs(a-c)+ abs(b-d) steps only.
+John is playing a game with his friends. The game's rules are as follows: There is deck of N cards from which each person is dealt a hand of K cards. Each card has an integer value representing its strength. A hand's strength is determined by the value of the highest card in the hand. The person with the strongest hand wins the round. Bets are placed before each player reveals the strength of their hand.
+John needs your help to decide when to bet. He decides he wants to bet when the strength of his hand is higher than the average hand strength. Hence John wants to calculate the average strength of ALL possible sets of hands. John is very good at division, but he needs your help in calculating the sum of the strengths of all possible hands.
 
-Devu has two sets of points. Set A contains points having X co-ordinate 0 and Y co-ordinates varying from 1 to N(both inclusive). Set B contains points having X co-ordinate K and Y co-ordinates varying from 1 to N(both inclusive). Both sets contains N number of integral points. He wants to calculate the sum of number of ways to going to the each point of set B from the each point of set A .
+### Problem
 
-As the answer can be large, print it modulo 1000000007.
+You are given an array a with N ≤ 10 000 different integer numbers and a number, K, where 1 ≤ K ≤ N. For all possible subsets of a of size K find the sum of their maximal elements modulo 1 000 000 007.
 
 ### Input Format
 

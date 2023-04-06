@@ -2,15 +2,15 @@
 
 ---
 
-##### ” التَّحِيَّاتُ للهِ، وَالصَّلَوَاتُ، وَالطَّيِّبَاتُ، السَّلَامُ عَلَيْكَ أَيُّهَا النَّبِيُّ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ، السَّلَامُ عَلَيْنَا وَعَلَى عِبَادِ اللهِ الصَّالِحِينَ. أّشَْدُ أَنْ لَا إِلَهَ إِلَّا اللهُ وَأَشْهَدُ أَنَّ مُحَمَّداً عَبْدُهُ وَرَسُولُهُ
+##### ” وَأُدۡخِلَ ٱلَّذِينَ ءَامَنُواْ وَعَمِلُواْ ٱلصَّٰلِحَٰتِ جَنَّٰتٖ تَجۡرِي مِن تَحۡتِهَا ٱلۡأَنۡهَٰرُ خَٰلِدِينَ فِيهَا بِإِذۡنِ رَبِّهِمۡۖ تَحِيَّتُهُمۡ فِيهَا سَلَٰمٌ
 
-##### “ All greetings of humility are for Allah, and all prayers and goodness. Peace be upon you, O Prophet, and the mercy of Allah and His blessings. Peace be upon us and upon the righteous slaves of Allah. I bear witness that there is none worthy of worship but Allah, and I bear witness that Muhammad is His slave and His Messenger. ”
+##### “ And those who believed (in the Oneness of Allah and His Messengers and whatever they brought) and did righteous deeds, will be made to enter Gardens under which rivers flow, - to dwell therein forever (i.e. in Paradise), with the permission of their Lord. Their greeting therein will be: Salam (peace!). ”
 
 ---
 
 ##
 
-## Todays challenge description [  NWAYS ] :
+## Todays challenge description [ Card Game ] :
 
 John is playing a game with his friends. The game's rules are as follows: There is deck of N cards from which each person is dealt a hand of K cards. Each card has an integer value representing its strength. A hand's strength is determined by the value of the highest card in the hand. The person with the strongest hand wins the round. Bets are placed before each player reveals the strength of their hand.
 John needs your help to decide when to bet. He decides he wants to bet when the strength of his hand is higher than the average hand strength. Hence John wants to calculate the average strength of ALL possible sets of hands. John is very good at division, but he needs your help in calculating the sum of the strengths of all possible hands.

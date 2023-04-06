@@ -21,8 +21,8 @@ You are given an array a with N ≤ 10 000 different integer numbers and a n
 
 ### Input Format
 
-    • First line of input contains an integer T denoting number of test cases.
-    • Next T lines will contain pair of integers N and K
+    The first line contains the number of test cases T, where 1 ≤ T ≤ 25
+    Each case begins with a line containing integers N and K. The next line contains N space-separated numbers 0 ≤ a [i] ≤ 2 000 000 000, which describe the array a.
 
 ### Output Format
 

@@ -26,36 +26,32 @@ You are given an array a with N ≤ 10 000 different integer numbers and a n
 
 ### Output Format
 
-For each test case, print a single integer representing the answer of that test case.
+For test case i, numbered from 1 to T, output "Case #i: ", followed by a single integer, the sum of maximal elements for all subsets of size K modulo 1 000 000 007.
 
 ### Constraints
 
-Subtask #1: 10 points
-◦ 1 ≤ T ≤ 20, 1 ≤ N ,K ≤ 1000
-Subtask #2: 10 points
-◦ 1 ≤ T ≤ 20, 1 ≤ N ,K ≤ 106
-Subtask #3: 80 points
-◦ 1 ≤ T ≤ 10000, 1 ≤ N,K ≤ 106
+### Example input
 
-Sample 1:
+    5
+    4 3
+    3 6 2 8 
+    5 2
+    10 20 30 40 50 
+    6 4
+    0 1 2 3 5 8 
+    2 2
+    1069 1122 
+    10 5
+    10386 10257 10432 10087 10381 10035 10167 10206 10347 10088 
 
-| Input | Output |
-| ----- | ------ |
-| 2     | 8      |
-| 2 2   | 236    |
-| 4 5   |        |
+### Example output
 
-### Explanation:
+    Case #1: 30
+    Case #2: 400
+    Case #3: 103
+    Case #4: 1122
+    Case #5: 2621483
 
-- **Test case 1**:For the first sample case,
-
-        ways[(0,1)->(2,1)]= 1
-
-        ways[(0,2)->(2,2)]= 1
-
-        ways[(0,1)->(2,2)]= 3
-
-        ways[(0,2)->(2,1)]= 3
 
 ### ADVICE 💖
 

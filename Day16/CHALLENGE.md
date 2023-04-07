@@ -25,9 +25,6 @@
 
 
 
-Sample 1:
-
-
 ### Explanation:
 
 - **Test case 1**: 

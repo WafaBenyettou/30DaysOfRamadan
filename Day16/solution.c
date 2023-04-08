@@ -9,6 +9,6 @@
 int main(){
 
 
-   printf("DAY 16");
+   printf("Distributing DP");
    return 0; 
 }

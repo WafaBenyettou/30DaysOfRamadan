@@ -2,15 +2,15 @@
 
 ---
 
-##### ” 
+##### ” للَّهُمَّ اِنَّكَ عَفُوٌّ ، تُحِبُّ الْعَفْوَ فَاعْفُ عَنِّي 
 
-##### “
+##### “ O Allah, You are Most Forgiving, and You love forgiveness; so forgive me.
 
 ---
 
 ##
 
-## Todays challenge description [ ] :
+## Todays challenge description [Distributing DP] :
 
 There are NN cells arranged in a row, numbered 1,2,…,N1,2,…,N from left to right.
 Tak lives in these cells and is currently on Cell 11. He is trying to reach Cell NN by using the procedure described below.

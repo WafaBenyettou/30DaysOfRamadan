@@ -1,10 +1,10 @@
-# CODING CHALLENGE DAY 16: 🌙✨
+# CODING CHALLENGE DAY 17: 🌙✨
 
 ---
 
-##### ” للَّهُمَّ اِنَّكَ عَفُوٌّ ، تُحِبُّ الْعَفْوَ فَاعْفُ عَنِّي
+##### ” رَبَّنَا وَأَدْخِلْهُمْ جَنَّاتِ عَدْنٍ الَّتِي وَعَدتَّهُم وَمَن صَلَحَ مِنْ آبَائِهِمْ وَأَزْوَاجِهِمْ وَذُرِّيَّاتِهِمْ إِنَّكَ أَنتَ الْعَزِيزُ الْحَكِيمُ وَقِهِمُ السَّيِّئَاتِ وَمَن تَقِ السَّيِّئَاتِ يَوْمَئِذٍ فَقَدْ رَحِمْتَهُ وَذَلِكَ هُوَ الْفَوْزُ الْعَظِيمُ
 
-##### “ O Allah, You are Most Forgiving, and You love forgiveness; so forgive me.
+##### “ And grant, our Lord! that they enter the Gardens of Eternity, which Thou hast promised to them, and to the righteous among their fathers, their wives, and their posterity! For Thou art (He), the Exalted in Might, Full of Wisdom. And preserve them from (all) ills; and any whom Thou dost preserve from ills that Day,- on them wilt Thou have bestowed Mercy indeed: and that will be truly (for them) the highest Achievement [40:8-9] "
 
 ---
 
@@ -12,87 +12,36 @@
 
 ## Todays challenge description [Distributing DP] :
 
-There are NN cells arranged in a row, numbered 1,2,…,N1,2,…,N from left to right.
-Tak lives in these cells and is currently on Cell 11. He is trying to reach Cell NN by using the procedure described below.
-You are given an integer KK that is less than or equal to 1010, and KK non-intersecting segments [L1,R1],[L2,R2],…,[LK,RK][l1,r1],[L2,R2],…,[LK,RK]. Let SS be the union of these KK segments. Here, the segment [l,r][l,r] denotes the set consisting of all integers ii that satisfy l≤i≤rl≤i≤r.
-• When you are on Cell ii, pick an integer dd from SS and move to Cell i+di+d. You cannot move out of the cells.
-To help Tak, find the number of ways to go to Cell NN, modulo 998244353998244353.
 
-### Constraints
+There is a street of length x whose positions are numbered 0,1,…,x. Initially there are no traffic lights, but n sets of traffic lights are added to the street one after another.
 
-    • 2≤N≤2×1052≤N≤2×105
-    • 1≤K≤min(N,10)1≤K≤min(N,10)
-    • 1≤Li≤Ri≤N1≤Li≤Ri≤N
-    • [Li,Ri][Li,Ri] and [Lj,Rj][Lj,Rj] do not intersect (i≠ji≠j)
-    • All values in input are integers.
+Your task is to calculate the length of the longest passage without traffic lights after each addition.
 
 ### Input
 
-    Input is given from Standard Input in the following format:
-    NN KK
-    L1L1 R1R1
-    L2L2 R2R2
-    ::
-    LKLK RKRK
+    The first input line contains two integers x and n: the length of the street and the number of sets of traffic lights.
+
+    Then, the next line contains n integers p1,p2,…,pn: the position of each set of traffic lights. Each position is distinct.
 
 ### Output
 
-    Print the number of ways for Tak to go from Cell 11 to Cell NN, modulo 998244353998244353.
+Print the length of the longest passage without traffic lights after each addition.
 
-### Sample Input 1 Copy
+### Constraints
 
-Copy
-5 2
-1 1
-3 4
+    1≤x≤10^9
+    1≤n≤2⋅10^5
+    0<pi<x
 
-### Sample Output 1 Copy
 
-Copy
-4
-The set SS is the union of the segment [1,1][1,1] and the segment [3,4][3,4], therefore S={1,3,4}S={1,3,4} holds.
-There are 44 possible ways to get to Cell 55:
-• 1→2→3→4→51→2→3→4→5,
-• 1→2→51→2→5,
-• 1→4→51→4→5 and
-• 1→51→5.
+### Example
 
-### Sample Input 2 Copy
+#### Input:
+8 3
+3 6 2
 
-Copy
-5 2
-3 3
-5 5
-
-### Sample Output 2 Copy
-
-Copy
-0
-Because S={3,5}S={3,5} holds, you cannot reach to Cell 55. Print 00.
-
-### Sample Input 3 Copy
-
-Copy
-5 1
-1 2
-
-### Sample Output 3 Copy
-
-Copy
-5
-
-### Sample Input 4 Copy
-
-Copy
-60 3
-5 8
-1 3
-10 15
-
-### Sample Output 4 Copy
-
-Copy
-221823067
+#### Output:
+5 3 3
 
 ### ADVICE 💖
 

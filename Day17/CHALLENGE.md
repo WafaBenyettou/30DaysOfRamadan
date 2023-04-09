@@ -10,7 +10,7 @@
 
 ##
 
-## Todays challenge description [Distributing DP] :
+## Todays challenge description [Traffic Lights] :
 
 
 There is a street of length x whose positions are numbered 0,1,…,x. Initially there are no traffic lights, but n sets of traffic lights are added to the street one after another.

@@ -10,6 +10,5 @@ int main(){
 
 
    printf("day 19");
-
    return 0; 
 }

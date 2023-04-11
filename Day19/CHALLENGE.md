@@ -24,16 +24,6 @@
 
            
 
-Sample 1:
-
-| Input | Output |
-| ----- | ------ |
-| 4     | 76     |
-| 4 8   | 101    |
-| 2 13  | 105    |
-| 14 5  | 96     |
-| 8 8   |        |
-
 ### Explanation:
 
 - **Test case 1**: King has 4 cars that seat 5 each and 8 cars that seat 7 each. So, 4×5+8×7=76people can travel together.

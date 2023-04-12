@@ -9,6 +9,6 @@
 int main(){
 
 
-   printf("20 DAYS :)");
+   printf("20 DAYS - Bowling Strategy");
    return 0; 
 }

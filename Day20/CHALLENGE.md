@@ -2,9 +2,9 @@
 
 ---
 
-##### ”
+##### ”رَبَّنَا أَفْرِغْ عَلَيْنَا صَبْراً وَثَبِّتْ أَقْدَامَنَا وَانصُرْنَا عَلَى القَوْمِ الكَافِرِينَ
 
-##### “ 
+##### “Our Lord! Bestow on us endurance, make our foothold sure, and give us help against the disbelieving folk [2:250]
 
 ---
 

@@ -7,6 +7,6 @@
 #include <fcntl.h>
 
 int main(){
-   printf("Day 21 it is :) ");
+   printf("Day 21, a very happy number XD ");
    return 0; 
 }

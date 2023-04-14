@@ -2,13 +2,14 @@
 
 ---
 
-##### ” 
-##### “ 
+##### ” رَبَّنَا إِنَّكَ جَامِعُ النَّاسِ لِيَوْمٍ لاَّ رَيْبَ فِيهِ إِنَّ اللّهَ لاَ يُخْلِفُ الْمِيعَادَ
+
+##### “ Our Lord! Thou art He that will gather mankind Together against a day about which there is no doubt; for Allah never fails in His promise. [3:9]
 ---
 
 ##
 
-## Todays challenge description [  ] :
+## Todays challenge description [ Rectangle ] :
 
 ## Zonal Computing Olympiad 2015, 29 Nov 2014
 
@@ -20,7 +21,7 @@ We would like to draw a rectangle, with its base on the X-axis, of maximum area 
 
 For example, if there are 555 points : (1,4),(2,3),(3,2),(5,1) and (5,2). Then the rectangle whose bottom-left and top-right corners are given by (0,0) and (2,3) is a possibility and its area is 6. Another possibility is the rectangle with bottom-left and top-right corners at (3,0) and (5,500) with area 1000. The rectangle with bottom-left at (2,3) and top-right at (100000,500) is not valid since its base does not lie on the X-axis. The largest rectangle that meets the requirements in this case is the one with its bottom-left corner at (5,0) and top-right at (100000,500) with area 49997500.
 
-Your program should take a description of the NNN points and output the size of the maximum rectangle satisfying the above property that can be drawn within the 100000×500 region.
+Your program should take a description of the N points and output the size of the maximum rectangle satisfying the above property that can be drawn within the 100000×500 region.
 
 ### Input format
 
@@ -34,7 +35,7 @@ Your program should take a description of the NNN points and output the size of 
 
 ### Test data
 
-In both subtasks, the X-coordinate of each of the N points is in the range 1 to 99999 inclusive, and the Y-coordinate of each of the N points is in the range 111 to 499 inclusive.
+In both subtasks, the X-coordinate of each of the N points is in the range 1 to 99999 inclusive, and the Y-coordinate of each of the N points is in the range 1 to 499 inclusive.
 
     1- **Subtask 1** (40 marks) :1≤N≤5000
     2- **Subtask 2** (60 marks) :1≤N≤100000

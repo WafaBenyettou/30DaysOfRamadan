@@ -1,10 +1,9 @@
-# CODING CHALLENGE DAY 21: 🌙✨
+# CODING CHALLENGE DAY 22: 🌙✨
 
 ---
 
-##### ” رَبَّنَا اغْفِرْ لَنَا وَلِإِخْوَانِنَا الَّذِينَ سَبَقُونَا بِالْإِيمَانِ وَلَا تَجْعَلْ فِي قُلُوبِنَا غِلًّا لِّلَّذِينَ آمَنُوا
-
-##### “ Our Lord! Forgive us, and our brethren who came before us into the Faith, and leave not, in our hearts, rancour (or sense of injury) against those who have believed [59:10]
+##### ” 
+##### “ 
 ---
 
 ##

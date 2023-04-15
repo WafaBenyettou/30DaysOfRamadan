@@ -9,6 +9,6 @@
 int main(){
 
 
-   printf("%d\n",res);
+   printf("Day23");
    return 0; 
 }

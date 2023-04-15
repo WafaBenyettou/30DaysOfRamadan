@@ -8,7 +8,6 @@
 
 int main(){
 
-
    printf("Day23");
    return 0; 
 }

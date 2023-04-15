@@ -1,10 +1,10 @@
-# CODING CHALLENGE DAY 01: 🌙✨
+# CODING CHALLENGE DAY 23: 🌙✨
 
 ---
 
-##### ” 
+##### ” مَا خَلَقْتَ هَذا بَاطِلاً سُبْحَانَكَ فَقِنَا عَذَابَ النَّارِ
 
-##### “ 
+##### “ Our Lord! Not for naught Hast Thou created (all) this! Glory to Thee! Give us salvation from the penalty of the Fire [3:191]
 
 ---
 

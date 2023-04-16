@@ -1,16 +1,16 @@
-# CODING CHALLENGE DAY 23: 🌙✨
+# CODING CHALLENGE DAY 24: 🌙✨
 
 ---
 
-##### ” مَا خَلَقْتَ هَذا بَاطِلاً سُبْحَانَكَ فَقِنَا عَذَابَ النَّارِ
+##### ”
 
-##### “ Our Lord! Not for naught Hast Thou created (all) this! Glory to Thee! Give us salvation from the penalty of the Fire [3:191]
+##### “
 
 ---
 
 ##
 
-## Todays challenge description [ String Transformation ] :
+## Todays challenge description [  ] :
 
 You are given a string s consisting of |s| small english letters.
 

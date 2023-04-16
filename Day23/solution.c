@@ -1,13 +1,25 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-#include <unistd.h>
-#include <sys/types.h>
-#include <sys/stat.h>
-#include <fcntl.h>
-
-int main(){
-
-   printf("String Transformation");
-   return 0; 
+#include<bits/stdc++.h>
+using namespace std;
+int main() {
+    string str;
+    cin >> str;
+    char ch = 'a';
+    bool flag = false;
+    for (int i=0 ; i < str.size() ; i++){
+        if (str[i] <= ch){
+            str[i] = ch;
+            if (ch == 'z'){
+                flag= true;
+                break;
+            }
+            ch= ch + 1;
+        }
+    }
+    if (!flag){
+        cout << -1 << endl;
+    }
+    else{
+        cout << str << endl;
+    }
+    return 0;
 }

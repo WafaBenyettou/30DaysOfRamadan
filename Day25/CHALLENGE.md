@@ -2,9 +2,9 @@
 
 ---
 
-##### ”رَبَّنَا وَآتِنَا مَا وَعَدتَّنَا عَلَى رُسُلِكَ وَلاَ تُخْزِنَا يَوْمَ الْقِيَامَةِ إِنَّكَ لاَ تُخْلِفُ الْمِيعَاد
+##### ”آمَنُوا رَبَّنَا وَسِعْتَ كُلَّ شَيْءٍ رَّحْمَةً وَعِلْمًا فَاغْفِرْ لِلَّذِينَ تَابُوا وَاتَّبَعُوا سَبِيلَكَ وَقِهِمْ عَذَابَ الْجَحِيمِ
 
-##### “Our Lord! Grant us what Thou didst promise unto us through Thine apostles, and save us from shame on the Day of Judgment: For Thou never breakest Thy promise [3:194]
+##### “Our Lord! Thy Reach is over all things, in Mercy and Knowledge. Forgive, then, those who turn in Repentance, and follow Thy Path; and preserve them from the Penalty of the Blazing Fire! [40:7]
 
 ---
 
@@ -12,26 +12,42 @@
 
 ## Todays challenge description [ PBDS - codeforces ] :
 
-You are given an array a of n integers. 
+Given an m x n 2D binary grid grid which represents a map of '1's (land) and '0's (water), return the number of islands.
 
-Find the number of pairs (i,j) (1≤i<j≤n) where the sum of ai+aj is greater than or equal to l and less than or equal to r (that is, l≤ai+aj≤r).
+An island is surrounded by water and is formed by connecting adjacent lands horizontally or vertically. You may assume all four edges of the grid are all surrounded by water.
 
-### example:
+ 
 
-if n=3, a=[5,1,2], l=4 and r=7, then two pairs are suitable:
+### Example 1:
 
-    i=1 and j=2 (4≤5+1≤7);
-    i=1 and j=3 (4≤5+2≤7).
+#### Input: grid = [
+  ["1","1","1","1","0"],
+  ["1","1","0","1","0"],
+  ["1","1","0","0","0"],
+  ["0","0","0","0","0"]
+]
+#### Output: 1
 
-### NOTE:  
-    Policy based data structures in g++
-    Difficulty Level : Medium
+### Example 2:
 
-    The g++ compiler also supports some data structures that are not part of the C++ standard library. Such structures are called policy-based data structures. These data structures are designed for high-performance, flexibility, semantic safety, and conformance to the corresponding containers in std.
-    To use these structures, the following lines must be added to the code:
+#### Input: grid = [
+  ["1","1","0","0","0"],
+  ["1","1","0","0","0"],
+  ["0","0","1","0","0"],
+  ["0","0","0","1","1"]
+]
+#### Output: 3
 
-    #include <ext/pb_ds/assoc_container.hpp>
-    using namespace __gnu_pbds;
+ 
+
+### Constraints:
+
+    m == grid.length
+    n == grid[i].length
+    1 <= m, n <= 300
+    grid[i][j] is '0' or '1'.
+
+
 
 ### ADVICE 💖
 

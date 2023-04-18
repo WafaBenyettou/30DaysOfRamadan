@@ -9,6 +9,6 @@
 int main(){
 
 
-   printf("Hellllllo day 26");
+   printf("I'm bored with life");
    return 0; 
 }

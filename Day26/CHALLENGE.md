@@ -10,7 +10,7 @@
 
 ##
 
-## Todays challenge description [  ] :
+## Todays challenge description [ I'm bored with life ] :
 
 Holidays have finished. Thanks to the help of the hacker Leha, Noora managed to enter the university of her dreams which is located in a town Pavlopolis. It's well known that universities provide students with dormitory for the period of university studies. Consequently Noora had to leave Vičkopolis and move to Pavlopolis. Thus Leha was left completely alone in a quiet town Vičkopolis. He almost even fell into a depression from boredom!
 

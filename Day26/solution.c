@@ -1,14 +1,11 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-#include <unistd.h>
-#include <sys/types.h>
-#include <sys/stat.h>
-#include <fcntl.h>
-
-int main(){
-
-
-   printf("I'm bored with life");
-   return 0; 
+#include <iostream>
+using namespace std;
+int main() {
+    int a, b;
+    scanf ( "%d%d", &a, &b );
+    int limit = min(a,b);
+    int ans = 1;
+    for ( int i = 1; i <= min( a, b ); i++ )
+    	ans *= i;
+    printf ( "%d\n", ans );
 }

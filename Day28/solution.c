@@ -9,7 +9,7 @@
 int main(){
 
 
-   printf("Daaaaaaaayyyyyyyyyyyyy 28");
+   printf("Page Rank Algorithm");
 
    return 0; 
 }

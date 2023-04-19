@@ -2,9 +2,9 @@
 
 ---
 
-##### ” 
+##### ” أَشْهَدُ أَنْ لَا إِلَهَ إِلاَّ اللّٰهُ وَحْدَهُ لاَ شَرِيكَ لَهُ وَأَشْهَدُ أَنَّ مُحَمَّدًا عَبْدُهُ وَرَسُولُهُ، اللَّهُمَّ اجْعَلْنِي مِنَ التَّوَّابِينَ وَاجْعَلْنِي مِنَ الْمُتَطَهِّرِينَ
 
-##### “ 
+##### “ I bear witness that none has the right to be worshipped except Allah, alone without partner, and I bear witness that Muhammad is His slave and Messenger. O Allah, make me of those who return to You often in repentance and make me of those who remain clean and pure.
 
 ---
 

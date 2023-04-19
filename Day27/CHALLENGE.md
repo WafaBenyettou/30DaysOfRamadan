@@ -1,10 +1,10 @@
-# CODING CHALLENGE DAY 01: 🌙✨
+# CODING CHALLENGE DAY 27: 🌙✨
 
 ---
 
-##### ” 
+##### ” سُبْحـانَكَ اللّهُـمَّ وَبِحَمدِك، أَشْهَـدُ أَنْ لا إِلهَ إِلاّ أَنْتَ أَسْتَغْفِرُكَ وَأَتوبُ إِلَـيْك
 
-##### “ 
+##### “ Glory is to You, O Allah, and praise is to You. I bear witness that there is none worthy of worship but You. I seek Your forgiveness and repent to You.
 ---
 
 ##

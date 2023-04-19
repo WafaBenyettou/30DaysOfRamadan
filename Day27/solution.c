@@ -8,6 +8,6 @@
 
 int main(){
 
-   printf("Day 27?");
+   printf("Longest Increasing Subsequence (LIS)");
    return 0; 
 }

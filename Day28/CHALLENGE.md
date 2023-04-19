@@ -10,7 +10,7 @@
 
 ##
 
-## Todays challenge description [ king travel 👑 ] :
+## Todays challenge description [  ] :
 
 King loves to go on tours with his friends.
 

@@ -2,15 +2,14 @@
 
 ---
 
-##### ” يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ كُتِبَ عَلَيْكُمُ ٱلصِّيَامُ كَمَا كُتِبَ عَلَى ٱلَّذِينَ مِن قَبْلِكُمْ لَعَلَّكُمْ تَتَّقُونَ
+##### ” 
 
-##### “ O believers! Fasting is prescribed for you—as it was for those before you—so perhaps you will become mindful ˹of Allah˺.
-
+##### “ 
 ---
 
 ##
 
-## Todays challenge description [ king travel 👑 ] :
+## Todays challenge description [  ] :
 
 ### ADVICE 💖
 

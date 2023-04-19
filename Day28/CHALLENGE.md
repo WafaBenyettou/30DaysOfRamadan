@@ -10,7 +10,7 @@
 
 ##
 
-## Todays challenge description [  ] :
+## Todays challenge description [ Page Rank Algorithm ] :
 
 PageRank is an algorithm used by Google to rank the importance of different websites. While there have been changes over the years, the central idea is to assign each site a score based on the importance of other pages that link to that page.
 

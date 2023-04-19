@@ -9,7 +9,7 @@
 
 ##
 
-## Todays challenge description [  ] :
+## Todays challenge description [ Longest Increasing Subsequence (LIS) ] :
 
 Given an array arr[] of size N, the task is to find the length of the Longest Increasing Subsequence (LIS) i.e., the longest possible subsequence in which the elements of the subsequence are sorted in increasing order.
 
@@ -27,7 +27,7 @@ Given an array arr[] of size N, the task is to find the length of the Longest In
 
         Input: arr[] = {50, 3, 10, 7, 40, 80}
         Output: 4
-        
+
     - **Explanation:** The longest increasing subsequence is {3, 7, 40, 80}
 
 ### ADVICE 💖

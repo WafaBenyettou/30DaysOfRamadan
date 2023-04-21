@@ -1,4 +1,4 @@
-# CODING CHALLENGE DAY 01: 🌙✨
+# CODING CHALLENGE DAY 30: 🌙✨
 
 ---
 
